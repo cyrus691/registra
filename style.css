@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(31, 31, 182);
+    display: flex;
+     justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+
+}
+.container{
+    width: 400px;
+    background-color:white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.header{
+    background-color: #928f8f;
+    padding: 10px 20px;
+    text-align: center;
+}
+.form{
+    padding: 20px 40px;
+
+}
+.formcontrol{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+.formcontrol label{
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.formcontrol input{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #d8d1d1;
+}
+.formcontrol.success input{
+    border: 2px solid rgb(102, 233, 102);
+}
+.formcontrol.error input{
+    border: 2px solid red;
+    
+}
+.formcontrol small{
+    position: absolute;
+    margin: 3px;
+    visibility: hidden;
+    font-size: 16px;
+}
+button{
+    background-color: rgb(33, 33, 223);
+    margin-top: 25px;
+     padding: 10px 20px; 
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid rgb(34, 34, 204);
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.3s ease;
+    color: white;
+    font-weight: bold; 
+    font-size: large;
+    
+}
+ button:hover{
+    background-color: rgb(10, 1, 59); 
+}
+/* login page */
+.innercontainer{
+    text-align: center;
+    align-items: center;
+}
+header{
+    background-color: #d4d1d1;
+    height: 100%;
+}
+.innercontainer{
+    background-color:white;
+    border-radius: 5px;
+
+}
+.logincontainer{
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 350px;
+    text-align: center;
+    
+}
+.logincontainer h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight:bold;
+
+
+}
+ .inputgroup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    position: relative;
+    margin-top: 25px;
+} 
+ .inputgroup label{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+
+
+
+} 
+.inputgroup input{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.passwordgrp{
+    position: relative;
+}
+.toggle{
+    position: absolute;
+    left: 85%;
+    bottom: 20%;
+}
+ .xlinks a{
+    margin-top: 5px;
+    font-size: 17px;
+} 
+.loginn{
+    margin-bottom: 9px;
+}
